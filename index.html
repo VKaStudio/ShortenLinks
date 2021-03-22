@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        p {float: left;}
+        span {line-height: 52px; padding-left: 15px; color: blue;}
+        i {display: block;color: red;}
+        #subject {width: 300px;height: 20px;border-radius: 5px;background-color: cornsilk;text-align: center;}
+        #send {width: 80px;height: 26px;border-radius: 5px;text-align: center;text-transform: uppercase;font-weight: bold;background-color: aliceblue;}
+    </style>
+</head>
+<body>
+    <form name="form" action="" method="post">
+        <i id="err-mess"></i>
+        <input type="text" name="subject" id="subject" value="">
+        <button id="send" type="submit">Gen</button>
+    </form>
+    <div id="result_form"></div> 
+</body>
+</html>
